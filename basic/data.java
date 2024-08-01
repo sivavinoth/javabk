@@ -6,8 +6,26 @@ public class data {
         System.out.println(conts);
         String name ="vinoth";
         System.out.println(name);
-        // boolean isEligible = true;
-        // System.out.println(isEligible);
+        boolean isEligible = true;
+        System.out.println(isEligible);
         System.out.println("Hello World");
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -4,12 +4,30 @@ import java.util.Scanner;
 
 
 class inp {
+    @SuppressWarnings("resource")
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        int a = sc.nextInt();
-        int b =sc.nextInt();
-        System.out.print(a + b);
+        Scanner scan = new Scanner(System.in);
+        String name = scan.nextLine(); 
+        int age = scan.nextInt();
+        scan.nextLine();
+        String city = scan.nextLine();
        
+        System.out.println("my name is "+name);
+      
+       System.out.println("my age is "+age);
+       System.out.println("my city is "+city);
     }
     
 }
+
+
+
+
+
+
+
+
+
+
+
+
